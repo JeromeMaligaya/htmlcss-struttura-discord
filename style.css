@@ -108,3 +108,13 @@
 .box-header{
     background-color: rgb(210, 87, 210);
 }
+
+/*main*/
+
+.box-azure{
+    width: 60%;
+}
+
+.box-pink{
+    width: 40%;
+}
