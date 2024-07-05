@@ -22,6 +22,10 @@
     align-items: center;
 }
 
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
 .margin-vert{
     margin: 20px auto;
 }
