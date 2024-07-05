@@ -1,0 +1,89 @@
+/*CSS-reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*generics*/
+
+/*utilities*/
+.border{
+    border: 1px dashed #000;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wdt-box-xl{
+    width: 1000px;
+}
+
+.wdt-box-l{
+    width: 800px;
+}
+
+.hgt-box{
+    min-height: 450px;
+}
+
+.hgt-nav{
+    min-height:30px;
+}
+
+
+/*specifics*/
+
+.bg-azure{
+    background-color: aquamarine;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+.bg-white{
+    background-color: #fff;
+}
+.bg-grey{
+    background-color: #777;
+}
+
+.bg-black{
+    background-color: #222;
+}
+
+/*header nav-header*/
+
+.card-nav-header{
+    min-height: 50px;
+}
+
+.nav-header{
+    background-color: goldenrod;
+}
+
+.box-logo{
+    width: 25%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.box-link{
+    width: 50%;
+}
+
+
+.box-login{
+    width: 25%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/*header header-content*/
