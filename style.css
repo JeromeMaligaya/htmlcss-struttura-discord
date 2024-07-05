@@ -7,10 +7,16 @@
 
 /*generics*/
 
-/*utilities*/
+/*utilities-borderline*/
 .border{
     border: 1px dashed #000;
 }
+
+.border-white{
+    border: 1px dashed #fff;
+}
+
+/*utilities-position*/
 
 .flex{
     display: flex;
@@ -22,14 +28,20 @@
     align-items: center;
 }
 
+
 .row-reverse{
     flex-direction: row-reverse;
 }
 
-.margin-vert{
+.mrg-vert{
     margin: 20px auto;
 }
 
+.pdg-box{
+    padding: 3px 5px;
+}
+
+/*utilities-height*/
 .hgt-box-l{
     min-height: 300px;
 }
@@ -38,11 +50,24 @@
     min-height: 700px;
 }
 
-.hgt-nav{
+.hgt-s{
     min-height:30px;
 }
 
+.hgt-m{
+    min-height:45px;
+}
 
+.hgt-l{
+    min-height: 60px;
+}
+
+.hgt-xl{
+    min-height: 75px;
+}
+
+
+/*utilities-width*/
 .wdt-box-l{
     width: 800px;
 }
@@ -52,7 +77,7 @@
 }
 
 
-/*specifics*/
+/*utilities-backgrounds-color*/
 
 .bg-azure{
     background-color: aquamarine;
@@ -80,18 +105,30 @@
     background-color: pink;
 }
 
+.bg-magenta{
+    background-color: rgb(210, 87, 210);
+}
+
+
 .bg-green{
     background-color: green;
 }
 
+.bg-coral{
+    background-color: coral;
+}
 
-.bg-acquagreen{
+.bg-acqua{
     background-color: rgb(0, 128, 117);
+}
+
+.bg-seagreen{
+    background-color: darkseagreen;
 }
 
 /*header nav-header*/
 
-.card-nav-header{
+.cont-nav-header{
     min-height: 50px;
 }
 
@@ -116,12 +153,6 @@
     align-items: center;
 }
 
-/*header header-content*/
-
-.box-header{
-    background-color: rgb(210, 87, 210);
-}
-
 /*main*/
 
 .box-azure{
@@ -130,4 +161,30 @@
 
 .box-pink{
     width: 40%;
+}
+
+
+/*footer-content*/
+.cont-footer-content{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.box-coral{
+    width: 34%;
+}
+
+.box-acqua{
+    width: calc(66%/4);
+}
+
+/*nav-footer*/
+.footer-nav-box{
+    justify-content: center;
+    align-items: flex-end;
+    border-top: solid white 2px;
+}
+
+.nav-footer{
+   justify-content: space-between;
+    align-items: center;
 }
